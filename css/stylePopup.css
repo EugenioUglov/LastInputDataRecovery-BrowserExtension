@@ -1,0 +1,26 @@
+body{
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header{
+   
+}
+
+.header__text{
+    color: grey;
+    font-size: 12px;
+    text-align: right;
+}
+
+.settings__icon{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+} 
+
+.settings__text{
+    margin-top: 10px;
+} 

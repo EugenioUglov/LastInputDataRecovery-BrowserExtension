@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+
+	"name": "Last Input Data Recovery",
+	"description": "Restoring the last entered data in the input fields.",
+	"version": "1.0",
+
+
+	"content_scripts": [ {
+		"matches": [ "*://*/*" ],
+		"js": ["jquery-3.4.1.min.js", "content_script.js"]
+	} ],
+
+	"action": {
+		"default_icon": "icons/recovery.png",
+		"default_title": "Last Input Data Recovery",
+		"default_popup": "popup.html" 
+	},
+	
+   "permissions": ["unlimitedStorage","contextMenus","activeTab", "storage", "tabs"],
+ 	
+	"icons": {
+		"16": "icons/recovery.png",
+		"48": "icons/recovery.png",
+		"128": "icons/recovery.png"
+	}
+}
